@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="372.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.pabloqc.transmilenio.Controlador">
+    <children>
+        <TextField fx:id="cost" layoutX="239.0" layoutY="41.0" prefHeight="25.0" prefWidth="58.0" text="0" />
+        <Label layoutX="38.0" layoutY="45.0" prefHeight="17.0" prefWidth="96.0" text="Precio de pasaje" />
+        <Label layoutX="38.0" layoutY="93.0" prefHeight="17.0" prefWidth="96.0" text="Dias de clase" />
+        <TextField fx:id="days" layoutX="238.0" layoutY="89.0" prefHeight="25.0" prefWidth="58.0" text="0" />
+        <Label layoutX="39.0" layoutY="140.0" prefHeight="17.0" prefWidth="165.0" text="Dias con doble viaje (opcional)" />
+        <TextField fx:id="doubleDays" layoutX="238.0" layoutY="136.0" prefHeight="25.0" prefWidth="58.0" text="0" />
+        <Button fx:id="calc" layoutX="157.0" layoutY="183.0" mnemonicParsing="false" onAction="#calcular" text="Calcular" />
+        <Label fx:id="WeekText" layoutX="44.0" layoutY="239.0" prefHeight="17.0" prefWidth="84.0" text="Costo semanal:" />
+        <Label fx:id="MonthText" layoutX="45.0" layoutY="277.0" prefHeight="17.0" prefWidth="84.0" text="Costo mensual:" />
+        <Label fx:id="weekly" layoutX="226.0" layoutY="239.0" prefHeight="17.0" prefWidth="84.0" />
+        <Label fx:id="monthly" layoutX="226.0" layoutY="277.0" prefHeight="17.0" prefWidth="84.0" />
+    </children>
+</Pane>
